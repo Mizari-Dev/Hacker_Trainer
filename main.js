@@ -1,7 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
-exports.functionName = function createWindow(link) {
+function createWindow(link) {
   const win = new BrowserWindow({
     minWidth: 800,
     minHeight: 600,

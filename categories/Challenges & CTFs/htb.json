@@ -1,0 +1,7 @@
+{
+  "title" : "Hack The Box",
+  "url" : "https://www.hackthebox.com/",
+  "icon" : "htb.svg",
+  "description" : "A Massive Hacking Playground",
+  "color": "htb"
+}
