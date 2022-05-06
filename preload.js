@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', async () => {
       cardElements.appendChild(cardText);
       var cardImg = document.createElement("div");
       cardImg.setAttribute("class", "col-auto");
-      cardImg.setAttribute("style", `width: 64px; height: 64px; background-image: url('${!file.icon.startsWith("http")?folder+"/":""}${file.icon}');`);
+      cardImg.setAttribute("style", `width: 64px; height: 64px; background-image: url('${folder}/${file.icon}'); background-size: cover;`);
       cardElements.appendChild(cardImg);
       cardBody.appendChild(cardElements);
       cardDiv.appendChild(cardBody);
